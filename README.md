@@ -43,7 +43,7 @@ POST upload the payment method. e.g. ` curl 127.0.0.1:3333/miner/Hello` will get
 The maintainer can manually use this command to send the coin `grin wallet send -d http://<IP>:<PORT>`. Note, ensure the receiver online before your sending.
 
 WebPage:
-- replace the API address to your API in the web/config.js
+- replace the API address to your API in the web/js/config.js
 - move all files in web to your Nginx/Apache folder
 
 ### Config
